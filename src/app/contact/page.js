@@ -9,7 +9,7 @@ export default function Contact() {
     <Navbar />
     <div className="m-12">
       <PageTitle title="Contant"/>
-      <PageContent />
+      <PageContent content="We look forward to hearing from you soon" />
     </div>
   </div>
   )
