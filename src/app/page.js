@@ -11,7 +11,7 @@ export default function Home() {
     <div className="m-12">
       <PageTitle title="Home"/>
       <PageContent />
-      <div class="flex gap-6 w-full my-6">
+      <div class="flex gap-6 w-full my-6 flex-wrap">
         <Card title="My First Card" subtitle="My First subtitle" desciption="My First description" />
         <Card title="My Second Card" subtitle="My Second subtitle" desciption="My Second description" />
         <Card title="My Third Card" subtitle="My Third subtitle" desciption="My Third description" />
