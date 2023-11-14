@@ -6,7 +6,7 @@ import Card from './components/Card'
 
 import { createClient } from '@supabase/supabase-js'  
 
-const supabase = createClient('https://ryvehfffghrqqxzwplzn.supabase.co', process.env.SUPABASE_SECRET)
+const supabase = createClient('https://ryvehfffghrqqxzwplzn.supabase.co', process.env.SUPABASE_SERVICE_ROLE_KEY)
 
 export const revalidate = 0
 
