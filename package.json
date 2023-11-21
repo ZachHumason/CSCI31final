@@ -17,6 +17,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@vercel/analytics": "^1.1.1",
     "autoprefixer": "^10",
     "eslint": "^8",
