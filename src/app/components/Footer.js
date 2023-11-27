@@ -1,7 +1,7 @@
 export default function Footer({ footer }) {
     return (
 
-        <footer className="bg-red-600 rounded-lg shadow m-4 dark:bg-red-600 fixed bottom-0 w-screen">
+        <footer className="bg-rose-600 rounded-lg shadow m-4 dark:bg-rose-600 fixed bottom-0 w-screen">
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span className="text-sm text-red-100 sm:text-center dark:text-red-100">© 2023 <a href="#" className="hover:underline">Humason™</a>. All Rights Reserved.
             </span>
