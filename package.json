@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@radix-ui/themes": "^2.0.1",
     "@supabase/supabase-js": "^2.38.4",
     "git": "^0.1.5",
     "next": "14.0.0",

@@ -11,7 +11,7 @@ export const revalidate = 0
 export default async function Home() {
 
   const cards = await findCards()
- 
+  // change line 22 "{cards &&"
   return (
   <div>
     <Navbar />
@@ -19,8 +19,8 @@ export default async function Home() {
       <PageTitle title="Home"/>
       <PageContent content="Personal website for showcasing Valorant related topics and content." />
       <div className="flex gap-6 w-full my-6 flex-wrap">
-        {cards.map((card, idx) => (
-          <Card key={idx} title={card.title} subtitle={card.subtitle} desciption={card.desciption} img={card.img} />
+        {cards && cards.map((card, idx) => (
+          <Card key={idx} title={card.title} subtitle={card.subtitle} description={card.description} img={card.img} />
         ))}
       </div>
       <PageContent content="BotWilds on Youtube, TikTok, and Twitch" />

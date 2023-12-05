@@ -8,7 +8,7 @@ export function getClient() {
 // { title, subtitle, description, img }
 export async function insertCard(card) {
   const supabase = getClient()
-  const { error } = await supabase.from('cards').insert(card)
+  const { error } = await supabase.from('card').insert(card)
 }
 
 export async function findCards() {
