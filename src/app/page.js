@@ -24,7 +24,7 @@ export default async function Home() {
         ))}
       </div>
       <PageContent content="BotWilds on Youtube, TikTok, and Twitch" />
-      <div className="flex mx-32 mt-6 aspect-w-16 aspect-h-9">
+      <div className="flex mx-12 mt-6 aspect-w-16 aspect-h-9">
         <iframe className="min-h-fit" src="https://www.youtube.com/embed/I3rpMYFrwPw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </div>

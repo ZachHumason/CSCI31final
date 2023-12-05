@@ -19,21 +19,21 @@ async function createCard(formData) {
   
   export default function CardForm() {
     return (
-        <form action={createCard} className="p-4 bg-rose-600 rounded-lg mt-4">
+        <form action={createCard} className="p-4 bg-rose-600 rounded-lg mt-4 mx-12">
             <Field>
-                <Label label="title"/>
+                <Label label="Weapon"/>
                 <Input id="title" name="title"/>
             </Field>
             <Field>
-                <Label label="subtitle"/>
+                <Label label="Skin Name"/>
                 <Input id="subtitle" name="subtitle"/>
             </Field>
             <Field>
-                <Label label="img"/>
+                <Label label="Color Variant"/>
                 <Input id="img" name="img"/>
             </Field>
             <Field>
-                <Label label="description"/>
+                <Label label="Gun Buddy (if used)"/>
                 <Input id="description" name="description"/>
             </Field>
             <div className="mt-4 flex justify-end">

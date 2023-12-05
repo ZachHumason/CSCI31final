@@ -6,20 +6,20 @@ const menuItems = [
         href: '/',
     },
     {
-        title: 'Agents',
-        href: '/agents',
-    },
-    {
         title: 'Collection',
         href: '/collection',
     },
     {
-        title: 'Content',
-        href: '/content',
-    },
-    {
         title: 'Maps',
         href: '/maps',
+    },
+    {
+        title: 'Agents',
+        href: '/agents',
+    },
+    {
+        title: 'Content',
+        href: '/content',
     },
 ]
 

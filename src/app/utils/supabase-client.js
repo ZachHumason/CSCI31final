@@ -16,3 +16,15 @@ export async function findCards() {
   const { data: cards, error } = await supabase.from('cards').select()
   return cards
 }
+
+export async function findMaps() {
+  const supabase = getClient()
+  const { data: maps, error } = await supabase.from('maps').select()
+  return maps
+}
+
+export async function findCollection() {
+  const supabase = getClient()
+  const { data: collection, error } = await supabase.from('collection').select()
+  return collection
+}
