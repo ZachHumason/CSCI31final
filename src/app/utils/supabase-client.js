@@ -19,12 +19,18 @@ export async function findCards() {
 
 export async function findMaps() {
   const supabase = getClient()
-  const { data: maps, error } = await supabase.from('maps').select()
+  const { data: maps, error } = await supabase.from('maps').select().order('id')
   return maps
+}
+
+export async function findAgents() {
+  const supabase = getClient()
+  const { data: agents, error } = await supabase.from('agents').select().order('id')
+  return agents
 }
 
 export async function findCollection() {
   const supabase = getClient()
-  const { data: collection, error } = await supabase.from('collection').select()
+  const { data: collection, error } = await supabase.from('collection').select().order('id')
   return collection
 }

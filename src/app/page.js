@@ -11,7 +11,6 @@ export const revalidate = 0
 export default async function Home() {
 
   const cards = await findCards()
-  // change line 22 "{cards &&"
   return (
   <div>
     <Navbar />

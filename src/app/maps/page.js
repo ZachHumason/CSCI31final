@@ -6,6 +6,8 @@ import Card from '../components/Card'
 import Footer from '../components/Footer'
 import { findMaps } from '../utils/supabase-client'
 
+export const revalidate = 0
+
 export default async function Maps() {
   const map = await findMaps();
   return (

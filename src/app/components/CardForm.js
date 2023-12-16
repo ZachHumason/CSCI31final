@@ -33,7 +33,7 @@ async function createCard(formData) {
                 <Input id="img" name="img"/>
             </Field>
             <Field>
-                <Label label="Gun Buddy (if used)"/>
+                <Label label="Gun Buddy"/>
                 <Input id="description" name="description"/>
             </Field>
             <div className="mt-4 flex justify-end">

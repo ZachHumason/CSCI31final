@@ -1,29 +1,26 @@
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import PageTitle from '../components/PageTitle'
 import PageContent from '../components/PageContent'
 import Footer from '../components/Footer'
 import CardForm from '../components/CardForm'
 import MyTable from '../components/MyTable'
-import { findCards, findCollection } from '../utils/supabase-client'
-
-export const revalidate = 0
+import { findCollection } from '../utils/supabase-client'
 
 const cardTableColumns = [
   {
-      title: 'Title',
+      title: 'Weapon',
       key: 'title'
   },
   {
-      title: 'Subtitle',
+      title: 'Skin Name',
       key: 'subtitle'
   },
   {
-      title: 'Image',
+      title: 'Color Variant',
       key: 'img'
   },
   {
-      title: 'Description',
+      title: 'Gun Buddy',
       key: 'description'
   },
 ]
